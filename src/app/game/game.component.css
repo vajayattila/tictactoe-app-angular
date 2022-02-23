@@ -1,0 +1,12 @@
+:host .status {
+    margin-bottom: 10px;
+}
+
+:host .game {
+    display: flex;
+    flex-direction: row;
+}
+
+:host .game-info {
+    margin-left: 20px;
+}

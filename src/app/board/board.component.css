@@ -1,0 +1,9 @@
+:host .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+:host ol, ul {
+    padding-left: 30px;
+}

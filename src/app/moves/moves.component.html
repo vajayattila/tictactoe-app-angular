@@ -1,0 +1,5 @@
+<ol>
+    <li *ngFor="let item of history, let i = index">          
+        <button (click)="onJumpTo(i)">{{i?"Go to, step#"+i:"Go to game start"}}</button>
+    </li> 
+</ol>   

@@ -1,0 +1,11 @@
+<div class="game">               
+    <div class="game-board">
+        <app-board [current]="getCurrent()" (cellClick)="onCellClick($event)"></app-board>
+    </div>
+    <div class="game-info">
+        <div class="status">{{getStatus()}}</div> 
+        <ol>
+            <app-moves [history]="history" (jumpTo)="onJumpTo($event)"></app-moves>
+        </ol>
+    </div>
+</div>
